@@ -8,7 +8,7 @@ final class MyTestingLibraryTests: XCTestCase {
         // results.
         XCTAssertEqual(MyTestingLibrary().text, "Hello, World!")
         
-        var std = Student(name: "john", roll: 1, marks: 100)
+        let std = Student(name: "john", roll: 1, marks: 100)
         std.getPercentage()
         
     }
