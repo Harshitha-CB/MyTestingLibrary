@@ -10,6 +10,6 @@ final class MyTestingLibraryTests: XCTestCase {
         
         var std = Student(name: "john", roll: 1, marks: 100)
         std.getPercentage()
-        std.name = "merry"
+        
     }
 }
